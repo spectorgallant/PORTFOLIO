@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="test.css">
+</head>
+<body>
+  <!-- Header and Navigation -->
+   <header>
+    <h1>My Portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+   </header>
+
+   <!-- About Me Section-->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm 
+        <strong class="bold-name">
+          HASSAN MUSTAPHA
+        </strong> a passionate web developer with experience in creating dynamic and responsive websites. I love coding and I'm constantly learning new technologies to enhance my skills.
+        Currently, I’m studying at <strong>Lead City University</strong>, one of the best universities in Nigeria, to deepen my knowledge and advance my career. My goal is to deliver innovative solutions and grow as a tech professional.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+     <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1</h3>
+        <p>
+         An online movie streaming platform with no Ads.
+        </p>
+        <p>
+          <img class="work-sample" src="work samples/hulu-movies-ad0c0ef9cdf6413bbe73e31b1a41234e.png" alt="work sample">
+        </p>
+      </div>
+      <div class="project">
+        <h3>Project 2</h3>
+        <p>
+          A global online platform offering a vast library of high-quality stock images to creative professionals and businesses.
+        </p>
+        <P>
+          <img class="work-sample" src="work samples/free-stock-images-photos-websites-pixabay.jpg" alt="work sample">
+        </P>
+      </div>
+      <div class="project">
+        <h3>Project 3</h3>
+        <p>
+          A website developed for uploading pictures and natural artifacts.
+        </p>
+        <p>
+          <img class="work-sample" src="work samples/unnamed.png" alt="work sample">
+        </p>
+      </div>
+     </section>
+
+     <!-- Contact Form Section -->
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send
+          </button>
+        </form>
+      </section>
+
+      <!-- Footer -->
+       <footer>
+        <p>&copy; 2024 My  Portfolio</p>
+       </footer>
+
+       <script src="script.js"></script>
+</body>
+</html>
